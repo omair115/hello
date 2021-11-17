@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -95,6 +95,16 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+              <a
+                href="https://medium.com/@umairanser"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaMediumM />
+              </a>
+            </li>
             </ul>
           </Col>
         </Row>
